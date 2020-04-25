@@ -11,13 +11,16 @@ Square handles the security and PCI compliance requirements for collecting the u
 
 ## Getting Started
 
-Complete the steps provide on the Square Developer get started page (https://developer.squareup.com/docs/get-started)
+* Complete the steps provide on the Square Developer get started page (https://developer.squareup.com/docs/get-started)
 
-Replace the application ID details in <Project>/ios/Runner/AppDelegate.swift
+* Replace the application ID details in <Project>/ios/Runner/AppDelegate.swift
+    ```
     // Set your Square Application ID
     SQIPInAppPaymentsSDK.squareApplicationID = "REPLACE_ME"
-
-Navigate in the Terminal to <Project>/ios and run 'pod install'. In addition to the dependencies in you would normally add to your pubspec.yaml file, you will also need to add the Native Square iOS SDK dependency manually to the Podfile. This has already been completed for you in this sample project but is an additional step you need to take if you wish to incorporate this into your own project.
+    ```
+* Navigate in the Terminal to <Project>/ios and run 'pod install'. 
+    
+>In addition to the dependencies in you would normally add to your pubspec.yaml file, you will also need to add the Native Square iOS SDK dependency manually to the Podfile. This has already been completed for you in this sample project but is an additional step you need to take if you wish to incorporate this into your own project.
 
 Note - references above to <Project> should be replaced with the name you've given this project file or if unchanged then the original name of the project as cloned from github (eg. square_native_sdk_sample/ios).
 
