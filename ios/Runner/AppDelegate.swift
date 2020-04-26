@@ -13,7 +13,7 @@ import SquareInAppPaymentsSDK
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
     // Set your Square Application ID
-    SQIPInAppPaymentsSDK.squareApplicationID = "sandbox-sq0idb-4GUiO2eU3a5IlJyKtCwRUA"
+    SQIPInAppPaymentsSDK.squareApplicationID = "REPLACE_ME"
     
     let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
     let paymentChannel = FlutterMethodChannel(name: "com.example.yourprojectname",
